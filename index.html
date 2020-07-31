@@ -13,13 +13,13 @@
 		<button onclick="myFunction()" id="Continue"><span>Press to Continue</span></button>
 		<script>
 			function myFunction() {
-				var d = new Date(2019, 11, 31, 0, 0,0);
+				var d = new Date(2020, 11, 31, 0, 0,0);
 				var dnow = new Date();
 				if(dnow<d){
 					window.open('home.html','_top');
 				}
 				else{
-					alert("Sorry, Need to topup!!");
+					alert("Sorry, Your account has Expired!!\n PLease Topup to continue.");
 				}
 			}
 		</script>
