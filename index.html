@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Your Restaurant 		
+		</title>
+		<link rel = "icon" href = "https://cdn2.iconfinder.com/data/icons/reataurant-2/64/Restaurant-Food-Menu-service-512.png"  type = "image/x-icon">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="page1">
+		<h2>Your Restuarant</h2>
+		<p id = "demo">Your Restuarant</p>
+		<button onclick="myFunction()" id="Continue"><span>Press to Continue</span></button>
+		<script>
+			function myFunction() {
+				var d = new Date(2020, 11, 31, 0, 0,0);
+				var dnow = new Date();
+				if(dnow<d){
+					window.open('home.html','_top');
+				}
+				else{
+					alert("Sorry, Need to topup!!");
+				}
+			}
+		</script>
+	</body>
+</html> 
