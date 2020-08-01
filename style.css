@@ -110,9 +110,9 @@ vertical-align:middle;
 }
 
 #Continue {
-	position: relative;
-	left: 500px;
-	top: 260px;
+	position:absolute;
+ 	left: 38%;
+  	top: 50%;
 	width: 280px;
 	height: 75px;
 	font-size: 20px;
